@@ -11,6 +11,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -68,6 +69,8 @@ public class MENUActivity extends Activity
                 Toast.makeText(MENUActivity.this,
                         "Kaffekort is clicked!",
                         Toast.LENGTH_SHORT).show();
+
+
                 break;
             case 2:
                 mTitle = getString(R.string.title_section2); //Section2
@@ -86,6 +89,11 @@ public class MENUActivity extends Activity
                 break;
             case 6:
                 mTitle = getString(R.string.title_section6); //Section6
+
+                Log.d("fiketapp", "click");
+                Intent intent = new Intent(this, statistik.class);
+                startActivity(intent);
+
                 break;
         }
     }
