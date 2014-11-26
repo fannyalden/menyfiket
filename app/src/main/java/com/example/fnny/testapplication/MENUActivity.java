@@ -70,7 +70,6 @@ public class MENUActivity extends Activity
                         "Kaffekort is clicked!",
                         Toast.LENGTH_SHORT).show();
 
-
                 break;
             case 2:
                 mTitle = getString(R.string.title_section2); //Section2
@@ -95,6 +94,10 @@ public class MENUActivity extends Activity
                 startActivity(intent);
 
                 break;
+            case 7:
+                mTitle = getString(R.string.title_section7);
+                Intent intent1 = new Intent(this, KaffeKort.class);
+                startActivity(intent1);
         }
     }
 

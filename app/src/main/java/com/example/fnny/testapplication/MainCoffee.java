@@ -10,19 +10,18 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.Toast;
 
-
 public class MainCoffee extends Activity {
 
     Button imageButton1, imageButton2, imageButton3;
     final Context context = this;
 
 
-    @Override
+   @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_coffee);
 
-            OnClickListener buttonListener =  new OnClickListener(){
+            View.OnClickListener buttonListener =  new OnClickListener(){
 
             public void onClick(View v)
             {
@@ -152,6 +151,8 @@ public class MainCoffee extends Activity {
         imageButton1.setOnClickListener(buttonListener);
         imageButton2.setOnClickListener(buttonListener);
         imageButton3.setOnClickListener(buttonListener);
+
+
 
     }
 

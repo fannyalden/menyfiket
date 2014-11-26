@@ -11,9 +11,11 @@
     <string name="title_section4">Hitta hit</string>
     <string name="title_section5">Webben</string>
     <string name="title_section6">Statistik</string>
+    <string name="title_section7">Kaffekort</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_example">HEJ</string>
     <string name="title_activity_statistik">statistik</string>
+    <string name="title_activity_kaffe_kort">KaffeKort</string>
 
 </resources>

@@ -20,6 +20,10 @@
             android:name=".statistik"
             android:label="@string/title_activity_statistik" >
         </activity>
+        <activity
+            android:name=".KaffeKort"
+            android:label="@string/title_activity_kaffe_kort" >
+        </activity>
     </application>
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
