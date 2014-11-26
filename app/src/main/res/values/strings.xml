@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Studentfiket</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">HÄR</string>
+    <string name="title_activity_menu">Elefant</string>
+    <string name="title_section1">Kaffekort</string>
+    <string name="title_section2">Öppettider</string>
+    <string name="title_section3">Styrelsen</string>
+    <string name="title_section4">Hitta hit</string>
+    <string name="title_section5">Webben</string>
+    <string name="title_section6">Statistik</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">HEJ</string>
+
+</resources>
