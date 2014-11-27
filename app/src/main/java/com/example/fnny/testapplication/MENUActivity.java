@@ -77,12 +77,16 @@ public class MENUActivity extends Activity
                 break;
             case 3:
                 mTitle = getString(R.string.title_section3); //Section3
+                Intent intent4 = new Intent(this, Oppetider.class);
+                startActivity(intent4);
                 break;
             case 4:
                 mTitle = getString(R.string.title_section4); //Section4
                 break;
             case 5:
                 mTitle = getString(R.string.title_section5); //Section5
+                Intent intent3 = new Intent(this, Hittahit.class);
+                startActivity(intent3);
                 break;
             case 6:
                 mTitle = getString(R.string.title_section6); //Section6

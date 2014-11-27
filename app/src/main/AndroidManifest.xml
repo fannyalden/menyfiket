@@ -17,14 +17,20 @@
             </intent-filter>
         </activity>
         <activity
-            
             android:name=".statistik"
             android:label="@string/title_activity_statistik" >
-
         </activity>
         <activity
             android:name=".KaffeKort"
             android:label="@string/title_activity_kaffe_kort" >
+        </activity>
+        <activity
+            android:name=".Hittahit"
+            android:label="@string/title_activity_hittahit" >
+        </activity>
+        <activity
+            android:name=".Oppetider"
+            android:label="@string/title_activity_oppetider" >
         </activity>
     </application>
 

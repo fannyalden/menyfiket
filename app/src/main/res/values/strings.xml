@@ -11,11 +11,13 @@
     <string name="title_section4">Styrelsen</string>
     <string name="title_section5">Hitta hit</string>
     <string name="title_section6">Statistik</string>
-
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_example">HEJ</string>
-    <string name="title_activity_statistik">statistik</string>
-    <string name="title_activity_kaffe_kort">KaffeKort</string>
+
+    <string name="title_activity_statistik">Statistik</string>
+    <string name="title_activity_kaffe_kort">Kaffekort</string>
+    <string name="title_activity_hittahit">Hitta hit</string>
+    <string name="title_activity_oppetider">Öppettider</string>
 
 </resources>
