@@ -17,8 +17,10 @@
             </intent-filter>
         </activity>
         <activity
+            
             android:name=".statistik"
             android:label="@string/title_activity_statistik" >
+
         </activity>
         <activity
             android:name=".KaffeKort"
