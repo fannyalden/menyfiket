@@ -66,16 +66,14 @@ public class MENUActivity extends Activity
         switch (number) {
             case 1:
                 mTitle = getString(R.string.title_section1); //
-                Toast.makeText(MENUActivity.this,
-                        "Kaffekort is clicked!",
-                        Toast.LENGTH_SHORT).show();
+               // Intent intent1 = new Intent(this, KaffeKort.class);
+              //  startActivity(intent1);
 
                 break;
             case 2:
                 mTitle = getString(R.string.title_section2); //Section2
-                Toast.makeText(MENUActivity.this,
-                        "Öppettider is clicked!",
-                        Toast.LENGTH_SHORT).show();
+                Intent intent2 = new Intent(this, KaffeKort.class);
+                startActivity(intent2);
                 break;
             case 3:
                 mTitle = getString(R.string.title_section3); //Section3
@@ -94,10 +92,7 @@ public class MENUActivity extends Activity
                 startActivity(intent);
 
                 break;
-            case 7:
-                mTitle = getString(R.string.title_section7);
-                Intent intent1 = new Intent(this, KaffeKort.class);
-                startActivity(intent1);
+
         }
     }
 

@@ -21,7 +21,6 @@ public class KaffeKort extends Activity {
 
         final Context context = this;
 
-
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
@@ -36,7 +35,6 @@ public class KaffeKort extends Activity {
 
                         //Dialogruta
                         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context);
-                        //alertDialogBuilder.setTitle("Är du helt hundra på detta?");
 
                         alertDialogBuilder
                                 .setMessage("Vill du köpa kaffe?")
@@ -63,11 +61,6 @@ public class KaffeKort extends Activity {
 
                         // show it
                         alertDialog.show();
-
-                        Toast.makeText(KaffeKort.this,
-                                "ImageButton is clicked!",
-                                Toast.LENGTH_SHORT).show();
-
 
                     }
 
@@ -106,9 +99,6 @@ public class KaffeKort extends Activity {
                         // show it
                         alertDialog.show();
 
-                        Toast.makeText(KaffeKort.this,
-                                "ImageButton is clicked!",
-                                Toast.LENGTH_SHORT).show();
                     }
                     if(v.getId() == R.id.imageButton3)
                     {
@@ -142,9 +132,6 @@ public class KaffeKort extends Activity {
                         // show it
                         alertDialog.show();
 
-                        Toast.makeText(KaffeKort.this,
-                                "ImageButton is clicked!",
-                                Toast.LENGTH_SHORT).show();
                     }
 
                 }
